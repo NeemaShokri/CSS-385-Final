@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rimor in Space</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Rimor in Space</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="./index.html">About</a>
+              <a class="nav-link" href="./webgl.html">WebGL</a>
+              <a class="nav-link" href="./devlogs.html">Development Log</a>
+              <a class="nav-link active" href="./playtestlogs.html" aria-current="page">Playtesting Logs</a>
+              <a class="nav-link" href="./credits.html">Credits</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Links
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://github.com/uwbclass/385projects-mitchelljohnson3">GitHub</a></li>
+                  <li><a class="dropdown-item" href="https://docs.google.com/presentation/d/1x1haps3VVEvMV-U7VEwdmdENYW7AQmsQlScseSZBoMI/edit#slide=id.gdb0e93aceb_3_146">Game Presentation</a></li>
+                </ul>
+              </li> 
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <div>
+        <h1>Playtesting Logs</h1>
+        <table class="table table-dark table-striped">
+            <thead>
+            <tr>
+                <th scope="col">Development Stage</th>
+                <th scope="col">Feedback</th>
+                <th scope="col">Summary</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Alpha</th>
+                    <td>
+                        <ol>
+                        <li>Nothing I can think of</li>
+                        <li>I was a little unclear on the weapons needing ammo and the doors needing keys</li>
+                        <li>Weapon UI is large and covers the screen. Inclined to press right click to shoot instead of space.</li>
+                        <li>Minor bugs here and there but nothing too crazy.</li>
+                        <li>Add a minimap, reduce the cooldown on laser, make combat more intuitive, match firing speed of weapons better with enemy movement speed.</li>
+                        <li>The aiming method could be changed to using the arrow keys or the mouse because its awkward to run away, shoot a few times, then run away again.</li>
+                        <li>Very small things. When a gun runs out of ammo, should switch back to the pistol.</li>
+                        <li>Could use a little more in terms of UI, there could be some more indicators in-game of the buttons to press or the current objective</li>
+                        <li>Cooldown should be faster</li>
+                        <li>options to play feel limited, maybe add different types of enemies</li>
+                        <li>Maybe make the monsters faster and have less health killing them is pretty easy.</li>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Game feels cluttered with UI and things overlapping (such as 2 slimes on top of each other)</li>
+                            <li>Make UI easier to read and understand</li>
+                            <li>Too many weapons (2 or 3 would be better)</li>
+                            <li>Wall overlapping is weird</li>
+                            <li>AI could use some work</li>
+                            <li>Level progression</li>
+                            <li>More variety in gameplay</li>
+                            <li>Not innovative enough</li>
+                            <li>Add background</li>
+                            <li>Confused on the goal</li>
+                            <li>Lack of animation with weapons animated assets for the bullets of each gun</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">In-Class Final</th>
+                    <td>
+                        <ol>
+                            <li>Loved the WebGL look! The game overall felt really nice and smooth, the design is beautiful, the controls are intuitive. Good job!</li>
+                            <li>Works very well, like the weapons</li>
+                            <li>Everytime u die the music comes back up and that makes it slightly annoying.</li>
+                            <li>Difficulty may be a bit high.</li>
+                            <li>Only being able to aim the way you are moving is inconvenient.</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>The game is still a bit difficult</li>
+                            <li>Some people like the way you aim with the weapons and others don't</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Post Final</th>
+                    <td>
+                        <ol>
+                            <li>Wanted player to fire at mouse -> found it difficult to shoot enemies behind. Thinks difficulty may be too high especially in the first boss room. Didn't know that cogs were keys to doors at first. Didn't know they needed a key to get into the boss room</li>
+                            <li>Thought the game was really fun, really liked the sound effects and weapon animations. Thought the slimes looked really cool. Beat both bosses -> thought the second boss was too hard</li>
+                            <li>Thinks player shooting in direction of mouse would be a good idea, preferred that idea to holding shift to lock animation state. Thought weapons sounded and looked cool, thinks its fun to kill the slimes. Doesn't think the slimes are too hard to kill.</li>
+                            <li>Didn't know that you had to press e on a chest to open it, didn't know that a chest was a chest. Thinks slimes are a little too hard to kill -> really close though. Thinks boss 2 is a little too hard, likes the spawning of slimes in the boss room</li>
+                            <li>Monsters don't follow through doors. I think they get stuck?</li>
+                            <li>Some monsters try to chase the player through doors that aren't open yet, which allows the player to shoot and damage them through the wall. Namely happens on like level 2 with one of the bosses.</li>
+                            <li>Some of the walls don't fit well together, it looks like there should be a corner but it keeps going straight.</li>
+                            <li>Monsters sometimes get bugged through doors/walls when the try to follow player</li>
+                            <li>World is too big or the player is too slow</li>
+                            <li>It is too easy to die</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Difficulty may be too high especially for boss fights, didn’t know a key was needed to enter boss room</li>
+                            <li>Really fun, likes the sound effects, thinks the second boss is too hard</li>
+                            <li>Thinks player should be shooting in direction of the mouse, thinks weapons sounds and look really cool. Fun to kill slimes.</li>
+                            <li>Did not know chests require pressing e to open, thinks boss 2 is way too hard</li>
+                            <li>Some bugs still remain in the game(monster bugging through doors & sometimes not following players through doors)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </table>
+    </div>
+
+    <h1>Last Changes</h1>
+    <p>Based on multiple feedbacks, we made the overall game easier by increasing the players max health and move speed (and reducing the difficulty of the second boss). We also increase the damage of some of the weapons to make killing enemies easier. Pressing 'e' on chests was unintuitive, so we now let the player simply walk into the chest to open it (although pressing 'e' is still an option for those players who liked it). We increased the player's movement speed to help with the kiting (running away and shooting the monsters at the same time) and also making it easier to explore everything faster. Fixed monsters trying to follow player through walls. Monsters should now properly be able to path to player when doors are open. Also tried to cover up weird wall corners the best we could (the asset pack we used is causing this limitation).</p>
+
+    <footer>
+        <div>
+            <p><em>Available on PC and Mac</em></p>
+            <p><em>Rated E10+</em></p>
+            <p><em>Launched on 6/8/2021</em></p>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

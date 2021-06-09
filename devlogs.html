@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rimor in Space</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Rimor in Space</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="./index.html">About</a>
+              <a class="nav-link" href="./webgl.html">WebGL</a>
+              <a class="nav-link active" href="./devlogs.html" aria-current="page">Development Log</a>
+              <a class="nav-link" href="./playtestlogs.html">Playtesting Logs</a>
+              <a class="nav-link" href="./credits.html">Credits</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Links
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://github.com/uwbclass/385projects-mitchelljohnson3">GitHub</a></li>
+                  <li><a class="dropdown-item" href="https://docs.google.com/presentation/d/1x1haps3VVEvMV-U7VEwdmdENYW7AQmsQlScseSZBoMI/edit#slide=id.gdb0e93aceb_3_146">Game Presentation</a></li>
+                </ul>
+              </li> 
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <div>
+        <h1>Development Log</h1>
+        <table class="table table-dark table-striped">
+            <thead>
+            <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Recently Completed</th>
+                <th scope="col">Next Steps</th>
+                <th scope="col">Neema</th>
+                <th scope="col">Nick</th>
+                <th scope="col">Mitch</th>
+                <th scope="col">Obstacles</th>
+                <th scope="col">Reflection</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">5/2</th>
+                    <td>Had our first meeting today where we began and completed our conceptual prototype.</td>
+                    <td>Find assets for our game and do research on how create tilemaps and and implement sprite animation.</td>
+                    <td>Starting work on player movement and behavior script.</td>
+                    <td>Starting work on tilemap.</td>
+                    <td>Starting work on player weapons script.</td>
+                    <td>N/A</td>
+                    <td>We think this is where we should be at this time.</td>
+                </tr>
+                <tr>
+                    <th scope="row">5/16</th>
+                    <td>We found the assets we will use for our game. We turned those assets into prefabs. The prototype level is done. The prototype weapons are done. Each respective prototype has their scripts functioning.</td>
+                    <td>Make the player collide with the tilemap and create prefabs for more monsters.</td>
+                    <td>Creating health bar for player and monsters. Creating slime prefab + 4 directional animation.</td>
+                    <td>Creating tilemap for the first level. Add monster, chests, and door prefabs to level.</td>
+                    <td>Adding animations, sprites, and sounds to all player weapons.</td>
+                    <td>Since we didn't create our assets we can't get the player sprite to hold different weapons so we had to settle for having different types of ammo.</td>
+                    <td>We think we have made massive progress on our game, having finished all core game mechanics. It will be smooth sailing from here since all we do now is put all our working prototypes into a level.</td>
+                </tr>
+                <tr>
+                    <th scope="row">5/23</th>
+                    <td>We have created the first level and are ready for the in-class playtest. Added player respawning via reload of level.</td>
+                    <td>Have others play our game in the alpha play test and gain new insights based off the feedback we're given.</td>
+                    <td>Added movement to slime (A*) and lerping to all health bars on damaging and healing. Began work on inventory UI.</td>
+                    <td>Balance the strength of each weapon and enemy to make a good experience for new players. Create a boss slime. Create door and key system to get from room to room.</td>
+                    <td>Adding pause menu with master volume control (alpha playtest reported players want this feature). Also adding a main menu that starts the game.</td>
+                    <td>Time constraint</td>
+                    <td>We may have to cut having multiple monsters and instead just settle for variations of our already created slime prefabs due to time constraints and other parts of the game we have to work on.</td>
+                </tr>
+                <tr>
+                    <th scope="row">5/30</th>
+                    <td>Created a presentation for our game for the class and a friend with video editing skills helped us create a trailer. Added another level to the game. Made changes that players reported on</td>
+                    <td>Play through and try and find/fix as many bugs as possible before the final play test.</td>
+                    <td>Made it more obvious that the UI showed the selected weapon as well as when you were out of ammo for a weapon (based off feedback from the alpha testing). Made boss slime spawn smaller slimes when half health is reached. Added ammo saving when the player reaches a new level.</td>
+                    <td>More balance changes to the game, make level 1 easy difficulty, level 2 medium difficulty, level 3 hard (to be made). Quality of life changes based on some feedback. Create a way to get from level to level.</td>
+                    <td>Fixing bugs, tweaking weapon damage (based off feedback from alpha)</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <th scope="row">6/6</th>
+                    <td>Adjusted difficulty of game again based off feedback from our in-class final play testing and our external play testing. This included giving the player more health and increase in movespeed, and nerfing the 2nd level boss health from 5000 to 2500.</td>
+                    <td>Rebuild webgl and push to repository and finalize deliverable.</td>
+                    <td>Creating the game website for our final deliverable.</td>
+                    <td>Made chests openable via collision based off playtesting feedback saying that they didn't know that's how you open a chest, though the player has the option to still press E to open the chest if they want to.</td>
+                    <td>Working on preventing the music from restarting after player death based off feedback saying that was annoying.</td>
+                    <td>Was difficult to find people to play test as finals week was coming up and lots of people were busy studying.</td>
+                    <td>N/A</td>
+                </tr>
+            </tbody>
+        </table>
+        </table>
+    </div>
+
+    <footer>
+        <div>
+            <p><em>Available on PC and Mac</em></p>
+            <p><em>Rated E10+</em></p>
+            <p><em>Launched on 6/8/2021</em></p>
+        </div>
+    </footer>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

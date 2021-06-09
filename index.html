@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Not Sus?</title>
+    <title>Rimor in Space</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Not Sus?</a>
+          <a class="navbar-brand" href="./index.html">Rimor in Space</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -19,6 +19,8 @@
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="./index.html">About</a>
               <a class="nav-link" href="./webgl.html">WebGL</a>
+              <a class="nav-link" href="./devlogs.html">Development Logs</a>
+              <a class="nav-link" href="./playtestlogs.html">Playtesting Logs</a>
               <a class="nav-link" href="./credits.html">Credits</a>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,7 +39,7 @@
     <div class="about">
         <h1>Description</h1>
         <p>
-        Not Sus is a 2D space-themed dungeon crawler that has some inspiration from the Doom series. The player, a stranded astronaut, must fight their way through different levels of enemy slimes and fight a boss at the end. The player has 5 weapons available to them. By default they have a laser gun with infinite ammo, but they will need to find ammo from killing enemies and looting chests around the level. Doors will be locked to the player and can only be opened with cogs (keys) that drop from enemy slimes or from looting chests.
+        <em>Rimor in Space</em> is a 2D space-themed dungeon crawler that has some inspiration from the Doom series. The player, a stranded astronaut, must fight their way through different levels of enemy slimes and fight a boss at the end. The player has 5 weapons available to them. By default they have a laser gun with infinite ammo, but they will need to find ammo from killing enemies and looting chests around the level. Doors will be locked to the player and can only be opened with cogs (keys) that drop from enemy slimes or from looting chests.
         </p>
         <p>
         The space 2D top down dungeon crawler theme is one none of had ever seen before, and is unique. We think that what will be most fun to players is the challenge of cycling between weapons, conserving ammo, and using the most effective weapon for the circumstance.
@@ -46,78 +48,19 @@
     
     <div>
         <h1>Trailer</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/co4ZZuOdFZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DGpwc9V7iPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Special thanks to Ryan Secrest for making the game trailer.</p>
     </div>
 
     <div>
-        <h1>Development Log</h1>
-        <table class="table table-dark">
-            <thead>
-            <tr>
-                <th scope="col">Date</th>
-                <th scope="col">Recently Completed</th>
-                <th scope="col">Next Steps</th>
-                <th scope="col">Neema</th>
-                <th scope="col">Nick</th>
-                <th scope="col">Mitch</th>
-                <th scope="col">Obstacles</th>
-                <th scope="col">Reflection</th>
-            </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">5/2</th>
-                    <td>Had our first meeting today where we began and completed our conceptual prototype.</td>
-                    <td>Find assets for our game and do research on how create tilemaps and and implement sprite animation.</td>
-                    <td>Starting work on player weapons script.</td>
-                    <td>Starting work on tilemap.</td>
-                    <td>Starting work on player weapons script.</td>
-                    <td>N/A</td>
-                    <td>We think this is where we should be at this time.</td>
-                </tr>
-                <tr>
-                    <th scope="row">5/16</th>
-                    <td>We found the assets we will use for our game. We turned those assets into prefabs. The prototype level is done. The prototype monsters are done. The prototype weapons are done. Each respective prototype has their scripts functioning.</td>
-                    <td>Find more assets for our game and do research on how create tilemaps and and implement sprite animation.</td>
-                    <td>Creating health bar for player and monsters. Creating slime prefab + adding 4 directional animation to slime.</td>
-                    <td>Creating tilemap for the first level. Add monster, chests, and door prefabs to level.</td>
-                    <td>Adding animations, sprites, and sounds to all player weapons.</td>
-                    <td>N/A</td>
-                    <td>We think we have made massive progress on our game, having finished all core game mechanics. It will be smooth sailing from here since all we do now is put all our working prototypes into a level.</td>
-                </tr>
-                <tr>
-                    <th scope="row">5/23</th>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <th scope="row">5/30</th>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <th scope="row">6/6</th>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                </tr>
-            </tbody>
-        </table>
-        </table>
+      <h1>Screenshots</h1>
+      <div class="container">
+        <img class="sc" src="./screenshots/shot1.png" />
+        <img class="sc" src="./screenshots/shot2.png" />
+        <img class="sc" src="./screenshots/shot3.png" />
+        <img class="sc" src="./screenshots/shot4.png" />
+        <img class="sc" src="./screenshots/shot5.png" />
+      </div>
     </div>
 
     <footer>

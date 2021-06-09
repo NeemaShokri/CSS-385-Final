@@ -40,7 +40,13 @@ iframe {
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(49, 48, 48);
+    position: absolute;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1em;
 }
 
 footer div p {
@@ -71,4 +77,18 @@ footer div p {
 
 .accordion-button {
     background-color: rgb(210, 210, 252);
+}
+
+.sc {
+    max-height: 350px;
+    padding: 1em;
+}
+
+.navbar-brand {
+    font-size:1.7em;
+    font-family:fantasy;
+}
+
+.accordion {
+    padding-bottom: 3rem;
 }
